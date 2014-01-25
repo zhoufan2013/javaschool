@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+
+    <entities>
+        <entity bobean="BOUPServSpecBean" type="103" seq="SERV_SPEC_ID">
+        </entity>
+
+        <entity bobean="BOUPRoleBean" type="401" seq="ROLE_ID" template="42">
+            <field entityType="103">SERV_SPEC_ID</field>
+        </entity>
+    </entities>
+
+    <language>EN_US</language>
+
+</system>
